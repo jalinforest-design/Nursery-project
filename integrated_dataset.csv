@@ -1,0 +1,276 @@
+timestamp,event_type,room_number,person_id,person_type,access_status,room_temperature_f,door_status,heart_rate_bpm,breathing_rate_per_min,patient_temperature_f,source_file,source_record_number,data_quality_notes
+2026-03-11 17:00:00,patient_vitals,,P1001,Patient,,,,132,42,98.5,feed101.xml,1,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:00:00,patient_vitals,,P1002,Patient,,,,146,43,98.4,feed101.xml,2,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:00:00,patient_vitals,,P1003,Patient,,,,141,38,98.1,feed101.xml,3,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:00:00,patient_vitals,,P1004,Patient,,,,150,45,98.8,feed101.xml,4,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:00:00,room_environment,305,,,,71.3,closed,,,,stream101.json,1,
+2026-03-11 17:00:00,room_environment,334,,,,72.3,closed,,,,stream101.json,2,
+2026-03-11 17:00:00,room_environment,337,,,,71.0,closed,,,,stream101.json,3,
+2026-03-11 17:00:00,room_environment,345,,,,71.6,closed,,,,stream101.json,4,
+2026-03-11 17:05:00,patient_vitals,,P1001,Patient,,,,138,46,98.2,feed101.xml,5,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:05:00,patient_vitals,,P1002,Patient,,,,143,46,98.4,feed101.xml,6,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:05:00,patient_vitals,,P1003,Patient,,,,137,37,98.4,feed101.xml,7,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:05:00,patient_vitals,,P1004,Patient,,,,143,52,98.8,feed101.xml,8,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:10:00,patient_vitals,,P1001,Patient,,,,136,42,98.2,feed101.xml,9,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:10:00,patient_vitals,,P1002,Patient,,,,138,46,98.5,feed101.xml,10,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:10:00,patient_vitals,,P1003,Patient,,,,143,41,98.0,feed101.xml,11,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:10:00,patient_vitals,,P1004,Patient,,,,149,46,98.9,feed101.xml,12,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:12:00,access_event,305,G4001,Parent,n/a,,,,,,batch101.csv,1,Room normalized from source code 10305 to 305 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 17:13:00,access_event,305,G4002,Parent,n/a,,,,,,batch101.csv,2,Room normalized from source code 10305 to 305 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 17:15:00,patient_vitals,,P1001,Patient,,,,142,46,98.3,feed101.xml,13,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:15:00,patient_vitals,,P1002,Patient,,,,141,44,98.9,feed101.xml,14,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:15:00,patient_vitals,,P1003,Patient,,,,140,38,98.3,feed101.xml,15,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:15:00,patient_vitals,,P1004,Patient,,,,151,46,98.5,feed101.xml,16,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:20:00,patient_vitals,,P1001,Patient,,,,140,38,98.2,feed101.xml,17,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:20:00,patient_vitals,,P1002,Patient,,,,137,48,98.6,feed101.xml,18,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:20:00,patient_vitals,,P1003,Patient,,,,133,39,98.6,feed101.xml,19,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:20:00,patient_vitals,,P1004,Patient,,,,153,46,98.7,feed101.xml,20,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:24:00,access_event,334,G4003,Parent,n/a,,,,,,batch101.csv,3,Room normalized from source code 10334 to 334 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 17:25:00,patient_vitals,,P1001,Patient,,,,138,43,98.2,feed101.xml,21,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:25:00,patient_vitals,,P1002,Patient,,,,143,50,98.7,feed101.xml,22,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:25:00,patient_vitals,,P1003,Patient,,,,133,38,98.0,feed101.xml,23,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:25:00,patient_vitals,,P1004,Patient,,,,144,50,98.5,feed101.xml,24,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:28:00,access_event,305,N2001,Nurse,n/a,,,,,,batch101.csv,4,Room normalized from source code 10305 to 305 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 17:30:00,access_event,345,N2002,Nurse,n/a,,,,,,batch101.csv,5,Room normalized from source code 10345 to 345 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 17:30:00,patient_vitals,,P1001,Patient,,,,142,46,98.7,feed101.xml,25,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:30:00,patient_vitals,,P1002,Patient,,,,147,44,98.5,feed101.xml,26,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:30:00,patient_vitals,,P1003,Patient,,,,142,37,98.4,feed101.xml,27,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:30:00,patient_vitals,,P1004,Patient,,,,153,44,98.6,feed101.xml,28,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:30:00,room_environment,305,,,,71.3,open,,,,stream101.json,5,
+2026-03-11 17:30:00,room_environment,334,,,,72.4,closed,,,,stream101.json,6,
+2026-03-11 17:30:00,room_environment,337,,,,71.0,closed,,,,stream101.json,7,
+2026-03-11 17:30:00,room_environment,345,,,,71.5,open,,,,stream101.json,8,
+2026-03-11 17:33:00,access_event,334,N2001,Nurse,n/a,,,,,,batch101.csv,6,Room normalized from source code 10334 to 334 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 17:35:00,patient_vitals,,P1001,Patient,,,,144,45,98.3,feed101.xml,29,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:35:00,patient_vitals,,P1002,Patient,,,,138,50,98.8,feed101.xml,30,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:35:00,patient_vitals,,P1003,Patient,,,,132,37,98.6,feed101.xml,31,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:35:00,patient_vitals,,P1004,Patient,,,,144,50,98.8,feed101.xml,32,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:38:00,access_event,337,N2001,Nurse,n/a,,,,,,batch101.csv,7,Room normalized from source code 10337 to 337 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 17:40:00,patient_vitals,,P1001,Patient,,,,133,38,98.6,feed101.xml,33,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:40:00,patient_vitals,,P1002,Patient,,,,145,42,98.4,feed101.xml,34,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:40:00,patient_vitals,,P1003,Patient,,,,132,43,98.3,feed101.xml,35,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:40:00,patient_vitals,,P1004,Patient,,,,145,50,98.8,feed101.xml,36,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:41:00,access_event,334,P1002,Patient,n/a,,,,,,batch101.csv,8,Room normalized from source code 10334 to 334 by removing leading '10' to align with room sensor identifiers. PersonType corrected from 'Patien' to 'Patient' (obvious truncated label).
+2026-03-11 17:45:00,patient_vitals,,P1001,Patient,,,,135,44,98.5,feed101.xml,37,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:45:00,patient_vitals,,P1002,Patient,,,,139,45,98.8,feed101.xml,38,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:45:00,patient_vitals,,P1003,Patient,,,,131,40,98.5,feed101.xml,39,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:45:00,patient_vitals,,P1004,Patient,,,,148,46,98.8,feed101.xml,40,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:50:00,patient_vitals,,P1001,Patient,,,,132,43,98.1,feed101.xml,41,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:50:00,patient_vitals,,P1002,Patient,,,,144,45,98.4,feed101.xml,42,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:50:00,patient_vitals,,P1003,Patient,,,,137,41,98.2,feed101.xml,43,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:50:00,patient_vitals,,P1004,Patient,,,,150,44,98.8,feed101.xml,44,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:51:00,access_event,337,G4004,Parent,n/a,,,,,,batch101.csv,9,Room normalized from source code 10337 to 337 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 17:55:00,patient_vitals,,P1001,Patient,,,,132,43,98.2,feed101.xml,45,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:55:00,patient_vitals,,P1002,Patient,,,,151,48,98.4,feed101.xml,46,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:55:00,patient_vitals,,P1003,Patient,,,,139,43,98.2,feed101.xml,47,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 17:55:00,patient_vitals,,P1004,Patient,,,,142,50,98.5,feed101.xml,48,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:00:00,patient_vitals,,P1001,Patient,,,,134,46,98.6,feed101.xml,49,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:00:00,patient_vitals,,P1002,Patient,,,,147,48,98.9,feed101.xml,50,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:00:00,patient_vitals,,P1003,Patient,,,,133,42,98.2,feed101.xml,51,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:00:00,patient_vitals,,P1004,Patient,,,,144,50,98.6,feed101.xml,52,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:00:00,room_environment,305,,,,71.7,closed,,,,stream101.json,9,
+2026-03-11 18:00:00,room_environment,334,,,,72.4,closed,,,,stream101.json,10,
+2026-03-11 18:00:00,room_environment,337,,,,71.1,closed,,,,stream101.json,11,
+2026-03-11 18:00:00,room_environment,345,,,,72.1,closed,,,,stream101.json,12,
+2026-03-11 18:02:00,access_event,305,D3001,Doctor,n/a,,,,,,batch101.csv,10,Room normalized from source code 10305 to 305 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 18:04:00,access_event,345,G4006,Parent,n/a,,,,,,batch101.csv,11,Room normalized from source code 10345 to 345 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 18:05:00,patient_vitals,,P1001,Patient,,,,135,44,98.6,feed101.xml,53,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:05:00,patient_vitals,,P1002,Patient,,,,145,46,98.5,feed101.xml,54,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:05:00,patient_vitals,,P1003,Patient,,,,129,39,98.1,feed101.xml,55,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:05:00,patient_vitals,,P1004,Patient,,,,144,50,98.8,feed101.xml,56,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:09:00,access_event,334,P1002,Patient,n/a,,,,,,batch101.csv,12,Room normalized from source code 10334 to 334 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 18:09:00,access_event,334,P1002,Patient,n/a,,,,,,batch101.csv,13,Room normalized from source code 10334 to 334 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 18:09:00,access_event,334,P1002,Patient,n/a,,,,,,batch101.csv,14,Room normalized from source code 10334 to 334 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 18:09:00,access_event,334,P1002,Patient,n/a,,,,,,batch101.csv,15,Room normalized from source code 10334 to 334 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 18:10:00,patient_vitals,,P1001,Patient,,,,133,45,98.7,feed101.xml,57,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:10:00,patient_vitals,,P1002,Patient,,,,143,44,98.8,feed101.xml,58,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:10:00,patient_vitals,,P1003,Patient,,,,143,38,98.2,feed101.xml,59,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:10:00,patient_vitals,,P1004,Patient,,,,144,44,99.0,feed101.xml,60,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:14:00,access_event,334,D3001,Doctor,n/a,,,,,,batch101.csv,16,Room normalized from source code 10334 to 334 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 18:15:00,patient_vitals,,P1001,Patient,,,,142,46,98.2,feed101.xml,61,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:15:00,patient_vitals,,P1002,Patient,,,,141,44,98.4,feed101.xml,62,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:15:00,patient_vitals,,P1003,Patient,,,,134,36,98.3,feed101.xml,63,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:15:00,patient_vitals,,P1004,Patient,,,,152,46,99.0,feed101.xml,64,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:16:00,access_event,334,G4003,Parent,n/a,,,,,,batch101.csv,17,Room normalized from source code 10334 to 334 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 18:20:00,patient_vitals,,P1001,Patient,,,,135,44,98.5,feed101.xml,65,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:20:00,patient_vitals,,P1002,Patient,,,,145,47,98.8,feed101.xml,66,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:20:00,patient_vitals,,P1003,Patient,,,,140,43,98.0,feed101.xml,67,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:20:00,patient_vitals,,P1004,Patient,,,,145,49,98.5,feed101.xml,68,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:25:00,patient_vitals,,P1001,Patient,,,,144,46,98.2,feed101.xml,69,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:25:00,patient_vitals,,P1002,Patient,,,,150,47,98.5,feed101.xml,70,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:25:00,patient_vitals,,P1003,Patient,,,,142,41,98.5,feed101.xml,71,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:25:00,patient_vitals,,P1004,Patient,,,,143,52,98.8,feed101.xml,72,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:27:00,access_event,337,D3001,Doctor,n/a,,,,,,batch101.csv,18,Room normalized from source code 10337 to 337 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 18:28:00,access_event,305,N2001,Nurse,n/a,,,,,,batch101.csv,19,Room normalized from source code 10305 to 305 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 18:30:00,access_event,345,N2002,Nurse,n/a,,,,,,batch101.csv,20,Room normalized from source code 10345 to 345 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 18:30:00,patient_vitals,,P1001,Patient,,,,144,45,98.6,feed101.xml,73,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:30:00,patient_vitals,,P1002,Patient,,,,145,43,98.5,feed101.xml,74,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:30:00,patient_vitals,,P1003,Patient,,,,143,40,98.0,feed101.xml,75,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:30:00,patient_vitals,,P1004,Patient,,,,153,46,98.7,feed101.xml,76,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:30:00,room_environment,305,,,,72.0,open,,,,stream101.json,13,
+2026-03-11 18:30:00,room_environment,334,,,,72.3,closed,,,,stream101.json,14,
+2026-03-11 18:30:00,room_environment,337,,,,71.3,open,,,,stream101.json,15,
+2026-03-11 18:30:00,room_environment,345,,,,71.8,open,,,,stream101.json,16,
+2026-03-11 18:33:00,access_event,334,N2001,Nurse,n/a,,,,,,batch101.csv,21,Room normalized from source code 10334 to 334 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 18:35:00,patient_vitals,,P1001,Patient,,,,132,42,98.5,feed101.xml,77,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:35:00,patient_vitals,,P1002,Patient,,,,149,48,98.7,feed101.xml,78,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:35:00,patient_vitals,,P1003,Patient,,,,139,40,98.1,feed101.xml,79,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:35:00,patient_vitals,,P1004,Patient,,,,141,51,98.9,feed101.xml,80,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:38:00,access_event,337,N2001,Nurse,n/a,,,,,,batch101.csv,22,Room normalized from source code 10337 to 337 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 18:40:00,patient_vitals,,P1001,Patient,,,,131,40,98.7,feed101.xml,81,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:40:00,patient_vitals,,P1002,Patient,,,,141,43,98.8,feed101.xml,82,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:40:00,patient_vitals,,P1003,Patient,,,,130,41,98.6,feed101.xml,83,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:40:00,patient_vitals,,P1004,Patient,,,,148,47,98.8,feed101.xml,84,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:41:00,access_event,345,D3001,Doctor,n/a,,,,,,batch101.csv,23,Room normalized from source code 10345 to 345 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 18:45:00,patient_vitals,,P1001,Patient,,,,143,40,98.5,feed101.xml,85,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:45:00,patient_vitals,,P1002,Patient,,,,149,45,98.5,feed101.xml,86,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:45:00,patient_vitals,,P1003,Patient,,,,131,39,98.5,feed101.xml,87,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:45:00,patient_vitals,,P1004,Patient,,,,141,44,98.9,feed101.xml,88,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:47:00,access_event,305,G4001,Parent,n/a,,,,,,batch101.csv,24,Room normalized from source code 10305 to 305 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 18:50:00,patient_vitals,,P1001,Patient,,,,141,42,98.3,feed101.xml,89,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:50:00,patient_vitals,,P1002,Patient,,,,143,49,98.5,feed101.xml,90,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:50:00,patient_vitals,,P1003,Patient,,,,143,42,98.5,feed101.xml,91,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:50:00,patient_vitals,,P1004,Patient,,,,149,44,98.9,feed101.xml,92,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:55:00,patient_vitals,,P1001,Patient,,,,132,40,98.2,feed101.xml,93,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:55:00,patient_vitals,,P1002,Patient,,,,142,48,98.8,feed101.xml,94,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:55:00,patient_vitals,,P1003,Patient,,,,137,44,98.0,feed101.xml,95,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 18:55:00,patient_vitals,,P1004,Patient,,,,147,52,98.9,feed101.xml,96,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:00:00,patient_vitals,,P1001,Patient,,,,145,42,98.5,feed101.xml,97,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:00:00,patient_vitals,,P1002,Patient,,,,147,50,98.5,feed101.xml,98,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:00:00,patient_vitals,,P1003,Patient,,,,140,42,98.4,feed101.xml,99,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:00:00,patient_vitals,,P1004,Patient,,,,148,48,98.9,feed101.xml,100,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:00:00,room_environment,305,,,,71.4,closed,,,,stream101.json,17,
+2026-03-11 19:00:00,room_environment,334,,,,72.5,closed,,,,stream101.json,18,
+2026-03-11 19:00:00,room_environment,337,,,,70.7,closed,,,,stream101.json,19,
+2026-03-11 19:00:00,room_environment,345,,,,71.5,closed,,,,stream101.json,20,
+2026-03-11 19:05:00,patient_vitals,,P1001,Patient,,,,137,41,98.3,feed101.xml,101,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:05:00,patient_vitals,,P1002,Patient,,,,149,43,98.6,feed101.xml,102,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:05:00,patient_vitals,,P1003,Patient,,,,133,39,98.4,feed101.xml,103,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:05:00,patient_vitals,,P1004,Patient,,,,151,45,98.5,feed101.xml,104,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:10:00,patient_vitals,,P1001,Patient,,,,145,44,98.4,feed101.xml,105,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:10:00,patient_vitals,,P1002,Patient,,,,144,44,98.5,feed101.xml,106,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:10:00,patient_vitals,,P1003,Patient,,,,143,36,98.5,feed101.xml,107,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:10:00,patient_vitals,,P1004,Patient,,,,154,46,98.6,feed101.xml,108,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:15:00,patient_vitals,,P1001,Patient,,,,136,40,98.4,feed101.xml,109,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:15:00,patient_vitals,,P1002,Patient,,,,144,50,98.6,feed101.xml,110,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:15:00,patient_vitals,,P1003,Patient,,,,135,37,98.2,feed101.xml,111,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:15:00,patient_vitals,,P1004,Patient,,,,150,50,98.4,feed101.xml,112,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:20:00,access_event,337,G4004,Parent,n/a,,,,,,batch101.csv,25,Room normalized from source code 10337 to 337 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 19:20:00,patient_vitals,,P1001,Patient,,,,137,43,98.2,feed101.xml,113,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:20:00,patient_vitals,,P1002,Patient,,,,141,47,98.6,feed101.xml,114,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:20:00,patient_vitals,,P1003,Patient,,,,143,38,98.3,feed101.xml,115,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:20:00,patient_vitals,,P1004,Patient,,,,155,50,98.7,feed101.xml,116,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:21:00,access_event,337,G4005,Parent,n/a,,,,,,batch101.csv,26,Room normalized from source code 10337 to 337 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 19:25:00,patient_vitals,,P1001,Patient,,,,139,42,98.1,feed101.xml,117,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:25:00,patient_vitals,,P1002,Patient,,,,138,47,98.5,feed101.xml,118,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:25:00,patient_vitals,,P1003,Patient,,,,142,40,98.4,feed101.xml,119,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:25:00,patient_vitals,,P1004,Patient,,,,144,51,98.5,feed101.xml,120,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:28:00,access_event,305,N2003,Nurse,n/a,,,,,,batch101.csv,27,Room normalized from source code 10305 to 305 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 19:30:00,access_event,345,N2005,Nurse,n/a,,,,,,batch101.csv,28,Room normalized from source code 10345 to 345 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 19:30:00,patient_vitals,,P1001,Patient,,,,133,43,98.5,feed101.xml,121,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:30:00,patient_vitals,,P1002,Patient,,,,149,46,98.4,feed101.xml,122,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:30:00,patient_vitals,,P1003,Patient,,,,132,38,98.3,feed101.xml,123,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:30:00,patient_vitals,,P1004,Patient,,,,155,45,98.9,feed101.xml,124,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:30:00,room_environment,305,,,,71.3,open,,,,stream101.json,21,
+2026-03-11 19:30:00,room_environment,334,,,,72.2,closed,,,,stream101.json,22,
+2026-03-11 19:30:00,room_environment,337,,,,71.2,closed,,,,stream101.json,23,
+2026-03-11 19:30:00,room_environment,345,,,,71.7,open,,,,stream101.json,24,
+2026-03-11 19:33:00,access_event,334,N2003,Nurse,n/a,,,,,,batch101.csv,29,Room normalized from source code 10334 to 334 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 19:35:00,access_event,305,G4002,Parent,n/a,,,,,,batch101.csv,30,Room normalized from source code 10305 to 305 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 19:35:00,patient_vitals,,P1001,Patient,,,,144,41,98.4,feed101.xml,125,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:35:00,patient_vitals,,P1002,Patient,,,,147,45,98.9,feed101.xml,126,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:35:00,patient_vitals,,P1003,Patient,,,,135,42,98.1,feed101.xml,127,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:35:00,patient_vitals,,P1004,Patient,,,,155,50,98.8,feed101.xml,128,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:38:00,access_event,337,N2004,Nurse,n/a,,,,,,batch101.csv,31,Room normalized from source code 10337 to 337 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 19:40:00,patient_vitals,,P1001,Patient,,,,138,38,98.6,feed101.xml,129,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:40:00,patient_vitals,,P1002,Patient,,,,149,44,98.7,feed101.xml,130,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:40:00,patient_vitals,,P1003,Patient,,,,129,44,98.1,feed101.xml,131,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:40:00,patient_vitals,,P1004,Patient,,,,143,44,98.7,feed101.xml,132,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:45:00,patient_vitals,,P1001,Patient,,,,141,42,98.2,feed101.xml,133,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:45:00,patient_vitals,,P1002,Patient,,,,150,50,98.7,feed101.xml,134,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:45:00,patient_vitals,,P1003,Patient,,,,136,38,98.2,feed101.xml,135,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:45:00,patient_vitals,,P1004,Patient,,,,155,50,98.5,feed101.xml,136,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:46:00,access_event,334,P1002,Patient,n/a,,,,,,batch101.csv,32,Room normalized from source code 10334 to 334 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 19:50:00,patient_vitals,,P1001,Patient,,,,141,42,98.4,feed101.xml,137,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:50:00,patient_vitals,,P1002,Patient,,,,144,45,98.9,feed101.xml,138,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:50:00,patient_vitals,,P1003,Patient,,,,130,37,98.3,feed101.xml,139,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:50:00,patient_vitals,,P1004,Patient,,,,141,47,98.6,feed101.xml,140,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:55:00,patient_vitals,,P1001,Patient,,,,144,43,98.7,feed101.xml,141,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:55:00,patient_vitals,,P1002,Patient,,,,146,42,98.7,feed101.xml,142,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:55:00,patient_vitals,,P1003,Patient,,,,151,54,98.6,feed101.xml,143,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 19:55:00,patient_vitals,,P1004,Patient,,,,151,48,98.9,feed101.xml,144,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:00:00,patient_vitals,,P1001,Patient,,,,140,44,98.2,feed101.xml,145,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:00:00,patient_vitals,,P1002,Patient,,,,150,46,98.5,feed101.xml,146,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:00:00,patient_vitals,,P1003,Patient,,,,165,60,98.8,feed101.xml,147,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:00:00,patient_vitals,,P1004,Patient,,,,141,49,98.8,feed101.xml,148,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:00:00,room_environment,305,,,,71.7,closed,,,,stream101.json,25,
+2026-03-11 20:00:00,room_environment,334,,,,72.2,closed,,,,stream101.json,26,
+2026-03-11 20:00:00,room_environment,337,,,,70.4,closed,,,,stream101.json,27,
+2026-03-11 20:00:00,room_environment,345,,,,71.5,closed,,,,stream101.json,28,
+2026-03-11 20:01:00,access_event,345,G4006,Parent,n/a,,,,,,batch101.csv,33,Room normalized from source code 10345 to 345 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 20:04:00,access_event,334,P1002,Patient,n/a,,,,,,batch101.csv,34,Room normalized from source code 10334 to 334 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 20:05:00,patient_vitals,,P1001,Patient,,,,137,41,98.3,feed101.xml,149,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:05:00,patient_vitals,,P1002,Patient,,,,138,50,98.4,feed101.xml,150,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:05:00,patient_vitals,,P1003,Patient,,,,176,68,99.0,feed101.xml,151,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:05:00,patient_vitals,,P1004,Patient,,,,155,48,98.8,feed101.xml,152,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:06:00,access_event,337,N2004,Nurse,n/a,,,,,,batch101.csv,35,Room normalized from source code 10337 to 337 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 20:08:00,access_event,337,D3001,Doctor,n/a,,,,,,batch101.csv,36,Room normalized from source code 10337 to 337 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 20:10:00,patient_vitals,,P1001,Patient,,,,143,46,98.4,feed101.xml,153,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:10:00,patient_vitals,,P1002,Patient,,,,149,50,98.3,feed101.xml,154,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:10:00,patient_vitals,,P1003,Patient,,,,192,73,99.2,feed101.xml,155,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:10:00,patient_vitals,,P1004,Patient,,,,155,46,98.9,feed101.xml,156,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:14:00,access_event,334,G4003,Parent,n/a,,,,,,batch101.csv,37,Room normalized from source code 10334 to 334 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 20:15:00,patient_vitals,,P1001,Patient,,,,133,41,98.1,feed101.xml,157,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:15:00,patient_vitals,,P1002,Patient,,,,151,42,98.6,feed101.xml,158,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:15:00,patient_vitals,,P1003,Patient,,,,180,68,99.0,feed101.xml,159,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:15:00,patient_vitals,,P1004,Patient,,,,146,52,98.9,feed101.xml,160,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:19:00,access_event,305,G4001,Parent,n/a,,,,,,batch101.csv,38,Room normalized from source code 10305 to 305 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 20:20:00,patient_vitals,,P1001,Patient,,,,138,44,98.2,feed101.xml,161,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:20:00,patient_vitals,,P1002,Patient,,,,151,49,98.9,feed101.xml,162,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:20:00,patient_vitals,,P1003,Patient,,,,174,63,98.9,feed101.xml,163,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:20:00,patient_vitals,,P1004,Patient,,,,154,51,98.6,feed101.xml,164,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:25:00,patient_vitals,,P1001,Patient,,,,142,40,98.3,feed101.xml,165,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:25:00,patient_vitals,,P1002,Patient,,,,141,48,98.3,feed101.xml,166,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:25:00,patient_vitals,,P1003,Patient,,,,162,56,98.8,feed101.xml,167,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:25:00,patient_vitals,,P1004,Patient,,,,146,47,98.6,feed101.xml,168,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:28:00,access_event,305,N2003,Nurse,n/a,,,,,,batch101.csv,39,Room normalized from source code 10305 to 305 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 20:30:00,access_event,345,N2005,Nurse,n/a,,,,,,batch101.csv,40,Room normalized from source code 10345 to 345 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 20:30:00,patient_vitals,,P1001,Patient,,,,132,43,98.6,feed101.xml,169,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:30:00,patient_vitals,,P1002,Patient,,,,139,43,98.9,feed101.xml,170,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:30:00,patient_vitals,,P1003,Patient,,,,157,54,98.6,feed101.xml,171,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:30:00,patient_vitals,,P1004,Patient,,,,146,46,98.5,feed101.xml,172,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:30:00,room_environment,305,,,,71.4,open,,,,stream101.json,29,
+2026-03-11 20:30:00,room_environment,334,,,,72.0,closed,,,,stream101.json,30,
+2026-03-11 20:30:00,room_environment,337,,,,70.7,closed,,,,stream101.json,31,
+2026-03-11 20:30:00,room_environment,345,,,,71.2,open,,,,stream101.json,32,
+2026-03-11 20:33:00,access_event,334,N2003,Nurse,n/a,,,,,,batch101.csv,41,Room normalized from source code 10334 to 334 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 20:35:00,patient_vitals,,P1001,Patient,,,,134,44,98.3,feed101.xml,173,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:35:00,patient_vitals,,P1002,Patient,,,,151,44,98.8,feed101.xml,174,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:35:00,patient_vitals,,P1003,Patient,,,,146,44,98.5,feed101.xml,175,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:35:00,patient_vitals,,P1004,Patient,,,,147,51,98.5,feed101.xml,176,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:38:00,access_event,337,N2004,Nurse,n/a,,,,,,batch101.csv,42,Room normalized from source code 10337 to 337 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 20:40:00,patient_vitals,,P1001,Patient,,,,139,39,98.1,feed101.xml,177,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:40:00,patient_vitals,,P1002,Patient,,,,145,48,98.6,feed101.xml,178,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:40:00,patient_vitals,,P1003,Patient,,,,139,42,98.3,feed101.xml,179,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:40:00,patient_vitals,,P1004,Patient,,,,145,46,98.6,feed101.xml,180,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:44:00,access_event,337,G4005,Parent,n/a,,,,,,batch101.csv,43,Room normalized from source code 10337 to 337 by removing leading '10' to align with room sensor identifiers.
+2026-03-11 20:45:00,patient_vitals,,P1001,Patient,,,,139,38,98.3,feed101.xml,181,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:45:00,patient_vitals,,P1002,Patient,,,,138,49,98.7,feed101.xml,182,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:45:00,patient_vitals,,P1003,Patient,,,,130,38,98.1,feed101.xml,183,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:45:00,patient_vitals,,P1004,Patient,,,,144,46,98.9,feed101.xml,184,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:50:00,patient_vitals,,P1001,Patient,,,,144,39,98.4,feed101.xml,185,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:50:00,patient_vitals,,P1002,Patient,,,,141,45,98.9,feed101.xml,186,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:50:00,patient_vitals,,P1003,Patient,,,,130,39,98.3,feed101.xml,187,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:50:00,patient_vitals,,P1004,Patient,,,,143,47,98.6,feed101.xml,188,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:55:00,patient_vitals,,P1001,Patient,,,,133,42,98.2,feed101.xml,189,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:55:00,patient_vitals,,P1002,Patient,,,,148,46,98.5,feed101.xml,190,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:55:00,patient_vitals,,P1003,Patient,,,,142,40,98.0,feed101.xml,191,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 20:55:00,patient_vitals,,P1004,Patient,,,,149,49,98.4,feed101.xml,192,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 21:00:00,patient_vitals,,P1001,Patient,,,,133,43,98.4,feed101.xml,193,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 21:00:00,patient_vitals,,P1002,Patient,,,,150,50,98.9,feed101.xml,194,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 21:00:00,patient_vitals,,P1003,Patient,,,,142,37,98.3,feed101.xml,195,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 21:00:00,patient_vitals,,P1004,Patient,,,,142,45,98.4,feed101.xml,196,Patient vital-sign record; room number not provided in XML source.
+2026-03-11 21:00:00,room_environment,305,,,,71.5,closed,,,,stream101.json,33,
+2026-03-11 21:00:00,room_environment,334,,,,71.6,closed,,,,stream101.json,34,
+2026-03-11 21:00:00,room_environment,337,,,,70.6,closed,,,,stream101.json,35,
+2026-03-11 21:00:00,room_environment,345,,,,71.5,closed,,,,stream101.json,36,
